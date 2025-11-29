@@ -30,6 +30,8 @@ After above steps you should be able to build from Windows using MSYS2 just like
 
 
 ## Credits
-This Game Boy emulator project is based on the tutorial series by **<Low Level Devel>** on YouTube.
+This Game Boy emulator project is based on the tutorial series by Low Level Devel on YouTube.
+
 Original tutorial: <https://youtube.com/playlist?list=PLVxiWMqQvhg_yk4qy2cSC3457wZJga_e5&si=wVdW06x4WuuCsKsY>
+
 All credit for the tutorial content goes to the original creator.
