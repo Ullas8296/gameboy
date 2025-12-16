@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ullas/Desktop/gameboy/part1/tests/check_gbe.c" "tests/CMakeFiles/check_gbe.dir/check_gbe.c.o" "gcc" "tests/CMakeFiles/check_gbe.dir/check_gbe.c.o.d"
+  "/home/ullas/Desktop/vscode/gameboy/part1/tests/check_gbe.c" "tests/CMakeFiles/check_gbe.dir/check_gbe.c.o" "gcc" "tests/CMakeFiles/check_gbe.dir/check_gbe.c.o.d"
   "" "tests/check_gbe" "gcc" "tests/CMakeFiles/check_gbe.dir/link.d"
   )
 

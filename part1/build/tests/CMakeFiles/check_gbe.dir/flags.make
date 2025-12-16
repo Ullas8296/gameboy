@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DHAVE_CONFIG_H
 
-C_INCLUDES = -I/home/ullas/Desktop/gameboy/part1/build -I/home/ullas/Desktop/gameboy/part1/tests/include -I/home/ullas/Desktop/gameboy/part1/include -I/usr/include/SDL2
+C_INCLUDES = -I/home/ullas/Desktop/vscode/gameboy/part1/build -I/home/ullas/Desktop/vscode/gameboy/part1/tests/include -I/home/ullas/Desktop/vscode/gameboy/part1/include -I/usr/include/SDL2
 
 C_FLAGS = -g
 

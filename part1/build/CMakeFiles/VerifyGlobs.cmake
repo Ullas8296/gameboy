@@ -3,32 +3,32 @@
 cmake_policy(SET CMP0009 NEW)
 
 # headers at lib/CMakeLists.txt:5 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/ullas/Desktop/gameboy/part1/include/*.h")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/ullas/Desktop/vscode/gameboy/part1/include/*.h")
 set(OLD_GLOB
-  "/home/ullas/Desktop/gameboy/part1/include/bus.h"
-  "/home/ullas/Desktop/gameboy/part1/include/cart.h"
-  "/home/ullas/Desktop/gameboy/part1/include/common.h"
-  "/home/ullas/Desktop/gameboy/part1/include/cpu.h"
-  "/home/ullas/Desktop/gameboy/part1/include/emu.h"
-  "/home/ullas/Desktop/gameboy/part1/include/ppu.h"
-  "/home/ullas/Desktop/gameboy/part1/include/timer.h"
+  "/home/ullas/Desktop/vscode/gameboy/part1/include/bus.h"
+  "/home/ullas/Desktop/vscode/gameboy/part1/include/cart.h"
+  "/home/ullas/Desktop/vscode/gameboy/part1/include/common.h"
+  "/home/ullas/Desktop/vscode/gameboy/part1/include/cpu.h"
+  "/home/ullas/Desktop/vscode/gameboy/part1/include/emu.h"
+  "/home/ullas/Desktop/vscode/gameboy/part1/include/ppu.h"
+  "/home/ullas/Desktop/vscode/gameboy/part1/include/timer.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/ullas/Desktop/gameboy/part1/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/ullas/Desktop/vscode/gameboy/part1/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # sources at lib/CMakeLists.txt:3 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/ullas/Desktop/gameboy/part1/lib/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/ullas/Desktop/vscode/gameboy/part1/lib/*.c")
 set(OLD_GLOB
-  "/home/ullas/Desktop/gameboy/part1/lib/bus.c"
-  "/home/ullas/Desktop/gameboy/part1/lib/cart.c"
-  "/home/ullas/Desktop/gameboy/part1/lib/cpu.c"
-  "/home/ullas/Desktop/gameboy/part1/lib/emu.c"
-  "/home/ullas/Desktop/gameboy/part1/lib/ppu.c"
-  "/home/ullas/Desktop/gameboy/part1/lib/timer.c"
+  "/home/ullas/Desktop/vscode/gameboy/part1/lib/bus.c"
+  "/home/ullas/Desktop/vscode/gameboy/part1/lib/cart.c"
+  "/home/ullas/Desktop/vscode/gameboy/part1/lib/cpu.c"
+  "/home/ullas/Desktop/vscode/gameboy/part1/lib/emu.c"
+  "/home/ullas/Desktop/vscode/gameboy/part1/lib/ppu.c"
+  "/home/ullas/Desktop/vscode/gameboy/part1/lib/timer.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/ullas/Desktop/gameboy/part1/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/ullas/Desktop/vscode/gameboy/part1/build/CMakeFiles/cmake.verify_globs")
 endif()

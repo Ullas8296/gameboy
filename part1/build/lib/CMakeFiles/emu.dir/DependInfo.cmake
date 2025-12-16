@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ullas/Desktop/gameboy/part1/lib/bus.c" "lib/CMakeFiles/emu.dir/bus.c.o" "gcc" "lib/CMakeFiles/emu.dir/bus.c.o.d"
-  "/home/ullas/Desktop/gameboy/part1/lib/cart.c" "lib/CMakeFiles/emu.dir/cart.c.o" "gcc" "lib/CMakeFiles/emu.dir/cart.c.o.d"
-  "/home/ullas/Desktop/gameboy/part1/lib/cpu.c" "lib/CMakeFiles/emu.dir/cpu.c.o" "gcc" "lib/CMakeFiles/emu.dir/cpu.c.o.d"
-  "/home/ullas/Desktop/gameboy/part1/lib/emu.c" "lib/CMakeFiles/emu.dir/emu.c.o" "gcc" "lib/CMakeFiles/emu.dir/emu.c.o.d"
-  "/home/ullas/Desktop/gameboy/part1/lib/ppu.c" "lib/CMakeFiles/emu.dir/ppu.c.o" "gcc" "lib/CMakeFiles/emu.dir/ppu.c.o.d"
-  "/home/ullas/Desktop/gameboy/part1/lib/timer.c" "lib/CMakeFiles/emu.dir/timer.c.o" "gcc" "lib/CMakeFiles/emu.dir/timer.c.o.d"
+  "/home/ullas/Desktop/vscode/gameboy/part1/lib/bus.c" "lib/CMakeFiles/emu.dir/bus.c.o" "gcc" "lib/CMakeFiles/emu.dir/bus.c.o.d"
+  "/home/ullas/Desktop/vscode/gameboy/part1/lib/cart.c" "lib/CMakeFiles/emu.dir/cart.c.o" "gcc" "lib/CMakeFiles/emu.dir/cart.c.o.d"
+  "/home/ullas/Desktop/vscode/gameboy/part1/lib/cpu.c" "lib/CMakeFiles/emu.dir/cpu.c.o" "gcc" "lib/CMakeFiles/emu.dir/cpu.c.o.d"
+  "/home/ullas/Desktop/vscode/gameboy/part1/lib/emu.c" "lib/CMakeFiles/emu.dir/emu.c.o" "gcc" "lib/CMakeFiles/emu.dir/emu.c.o.d"
+  "/home/ullas/Desktop/vscode/gameboy/part1/lib/ppu.c" "lib/CMakeFiles/emu.dir/ppu.c.o" "gcc" "lib/CMakeFiles/emu.dir/ppu.c.o.d"
+  "/home/ullas/Desktop/vscode/gameboy/part1/lib/timer.c" "lib/CMakeFiles/emu.dir/timer.c.o" "gcc" "lib/CMakeFiles/emu.dir/timer.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

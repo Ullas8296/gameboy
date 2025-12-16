@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ullas/Desktop/gameboy/part1
+CMAKE_SOURCE_DIR = /home/ullas/Desktop/vscode/gameboy/part1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ullas/Desktop/gameboy/part1/build
+CMAKE_BINARY_DIR = /home/ullas/Desktop/vscode/gameboy/part1/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ullas/Desktop/gameboy/part1/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ullas/Desktop/gameboy/part1/build/CMakeFiles /home/ullas/Desktop/gameboy/part1/build/gbemu//CMakeFiles/progress.marks
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gbemu/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ullas/Desktop/gameboy/part1/build/CMakeFiles 0
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ullas/Desktop/vscode/gameboy/part1/build/CMakeFiles /home/ullas/Desktop/vscode/gameboy/part1/build/gbemu//CMakeFiles/progress.marks
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gbemu/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ullas/Desktop/vscode/gameboy/part1/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gbemu/clean
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gbemu/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,23 +158,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gbemu/preinstall
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gbemu/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gbemu/preinstall
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gbemu/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(CMAKE_COMMAND) -P /home/ullas/Desktop/gameboy/part1/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ullas/Desktop/gameboy/part1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(CMAKE_COMMAND) -P /home/ullas/Desktop/vscode/gameboy/part1/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 gbemu/CMakeFiles/gbemu.dir/rule:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gbemu/CMakeFiles/gbemu.dir/rule
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gbemu/CMakeFiles/gbemu.dir/rule
 .PHONY : gbemu/CMakeFiles/gbemu.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ gbemu: gbemu/CMakeFiles/gbemu.dir/rule
 
 # fast build rule for target.
 gbemu/fast:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f gbemu/CMakeFiles/gbemu.dir/build.make gbemu/CMakeFiles/gbemu.dir/build
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f gbemu/CMakeFiles/gbemu.dir/build.make gbemu/CMakeFiles/gbemu.dir/build
 .PHONY : gbemu/fast
 
 main.o: main.c.o
@@ -191,7 +191,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f gbemu/CMakeFiles/gbemu.dir/build.make gbemu/CMakeFiles/gbemu.dir/main.c.o
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f gbemu/CMakeFiles/gbemu.dir/build.make gbemu/CMakeFiles/gbemu.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -199,7 +199,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f gbemu/CMakeFiles/gbemu.dir/build.make gbemu/CMakeFiles/gbemu.dir/main.c.i
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f gbemu/CMakeFiles/gbemu.dir/build.make gbemu/CMakeFiles/gbemu.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -207,7 +207,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f gbemu/CMakeFiles/gbemu.dir/build.make gbemu/CMakeFiles/gbemu.dir/main.c.s
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f gbemu/CMakeFiles/gbemu.dir/build.make gbemu/CMakeFiles/gbemu.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -238,7 +238,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(CMAKE_COMMAND) -P /home/ullas/Desktop/gameboy/part1/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ullas/Desktop/gameboy/part1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(CMAKE_COMMAND) -P /home/ullas/Desktop/vscode/gameboy/part1/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

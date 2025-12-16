@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ullas/Desktop/gameboy/part1
+CMAKE_SOURCE_DIR = /home/ullas/Desktop/vscode/gameboy/part1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ullas/Desktop/gameboy/part1/build
+CMAKE_BINARY_DIR = /home/ullas/Desktop/vscode/gameboy/part1/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ullas/Desktop/gameboy/part1/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ullas/Desktop/gameboy/part1/build/CMakeFiles /home/ullas/Desktop/gameboy/part1/build/tests//CMakeFiles/progress.marks
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ullas/Desktop/gameboy/part1/build/CMakeFiles 0
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ullas/Desktop/vscode/gameboy/part1/build/CMakeFiles /home/ullas/Desktop/vscode/gameboy/part1/build/tests//CMakeFiles/progress.marks
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ullas/Desktop/vscode/gameboy/part1/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/clean
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,23 +158,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(CMAKE_COMMAND) -P /home/ullas/Desktop/gameboy/part1/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ullas/Desktop/gameboy/part1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(CMAKE_COMMAND) -P /home/ullas/Desktop/vscode/gameboy/part1/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/CMakeFiles/check_gbe.dir/rule:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/check_gbe.dir/rule
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/check_gbe.dir/rule
 .PHONY : tests/CMakeFiles/check_gbe.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ check_gbe: tests/CMakeFiles/check_gbe.dir/rule
 
 # fast build rule for target.
 check_gbe/fast:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/check_gbe.dir/build.make tests/CMakeFiles/check_gbe.dir/build
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/check_gbe.dir/build.make tests/CMakeFiles/check_gbe.dir/build
 .PHONY : check_gbe/fast
 
 check_gbe.o: check_gbe.c.o
@@ -191,7 +191,7 @@ check_gbe.o: check_gbe.c.o
 
 # target to build an object file
 check_gbe.c.o:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/check_gbe.dir/build.make tests/CMakeFiles/check_gbe.dir/check_gbe.c.o
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/check_gbe.dir/build.make tests/CMakeFiles/check_gbe.dir/check_gbe.c.o
 .PHONY : check_gbe.c.o
 
 check_gbe.i: check_gbe.c.i
@@ -199,7 +199,7 @@ check_gbe.i: check_gbe.c.i
 
 # target to preprocess a source file
 check_gbe.c.i:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/check_gbe.dir/build.make tests/CMakeFiles/check_gbe.dir/check_gbe.c.i
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/check_gbe.dir/build.make tests/CMakeFiles/check_gbe.dir/check_gbe.c.i
 .PHONY : check_gbe.c.i
 
 check_gbe.s: check_gbe.c.s
@@ -207,7 +207,7 @@ check_gbe.s: check_gbe.c.s
 
 # target to generate assembly for a file
 check_gbe.c.s:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/check_gbe.dir/build.make tests/CMakeFiles/check_gbe.dir/check_gbe.c.s
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/check_gbe.dir/build.make tests/CMakeFiles/check_gbe.dir/check_gbe.c.s
 .PHONY : check_gbe.c.s
 
 # Help Target
@@ -238,7 +238,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(CMAKE_COMMAND) -P /home/ullas/Desktop/gameboy/part1/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ullas/Desktop/gameboy/part1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(CMAKE_COMMAND) -P /home/ullas/Desktop/vscode/gameboy/part1/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

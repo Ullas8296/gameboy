@@ -1,4 +1,4 @@
-# Install script for directory: /home/ullas/Desktop/gameboy/part1/gbemu
+# Install script for directory: /home/ullas/Desktop/vscode/gameboy/part1/gbemu
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,7 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/gbemu"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/ullas/Desktop/gameboy/part1/build/gbemu/gbemu")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/ullas/Desktop/vscode/gameboy/part1/build/gbemu/gbemu")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/gbemu" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/gbemu")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -61,6 +61,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/ullas/Desktop/gameboy/part1/build/gbemu/install_local_manifest.txt"
+  file(WRITE "/home/ullas/Desktop/vscode/gameboy/part1/build/gbemu/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

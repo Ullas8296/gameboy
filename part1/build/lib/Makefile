@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ullas/Desktop/gameboy/part1
+CMAKE_SOURCE_DIR = /home/ullas/Desktop/vscode/gameboy/part1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ullas/Desktop/gameboy/part1/build
+CMAKE_BINARY_DIR = /home/ullas/Desktop/vscode/gameboy/part1/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ullas/Desktop/gameboy/part1/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ullas/Desktop/gameboy/part1/build/CMakeFiles /home/ullas/Desktop/gameboy/part1/build/lib//CMakeFiles/progress.marks
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ullas/Desktop/gameboy/part1/build/CMakeFiles 0
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ullas/Desktop/vscode/gameboy/part1/build/CMakeFiles /home/ullas/Desktop/vscode/gameboy/part1/build/lib//CMakeFiles/progress.marks
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ullas/Desktop/vscode/gameboy/part1/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,23 +158,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(CMAKE_COMMAND) -P /home/ullas/Desktop/gameboy/part1/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ullas/Desktop/gameboy/part1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(CMAKE_COMMAND) -P /home/ullas/Desktop/vscode/gameboy/part1/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/emu.dir/rule:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/emu.dir/rule
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/emu.dir/rule
 .PHONY : lib/CMakeFiles/emu.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ emu: lib/CMakeFiles/emu.dir/rule
 
 # fast build rule for target.
 emu/fast:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/build
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/build
 .PHONY : emu/fast
 
 bus.o: bus.c.o
@@ -191,7 +191,7 @@ bus.o: bus.c.o
 
 # target to build an object file
 bus.c.o:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/bus.c.o
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/bus.c.o
 .PHONY : bus.c.o
 
 bus.i: bus.c.i
@@ -199,7 +199,7 @@ bus.i: bus.c.i
 
 # target to preprocess a source file
 bus.c.i:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/bus.c.i
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/bus.c.i
 .PHONY : bus.c.i
 
 bus.s: bus.c.s
@@ -207,7 +207,7 @@ bus.s: bus.c.s
 
 # target to generate assembly for a file
 bus.c.s:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/bus.c.s
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/bus.c.s
 .PHONY : bus.c.s
 
 cart.o: cart.c.o
@@ -215,7 +215,7 @@ cart.o: cart.c.o
 
 # target to build an object file
 cart.c.o:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cart.c.o
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cart.c.o
 .PHONY : cart.c.o
 
 cart.i: cart.c.i
@@ -223,7 +223,7 @@ cart.i: cart.c.i
 
 # target to preprocess a source file
 cart.c.i:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cart.c.i
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cart.c.i
 .PHONY : cart.c.i
 
 cart.s: cart.c.s
@@ -231,7 +231,7 @@ cart.s: cart.c.s
 
 # target to generate assembly for a file
 cart.c.s:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cart.c.s
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cart.c.s
 .PHONY : cart.c.s
 
 cpu.o: cpu.c.o
@@ -239,7 +239,7 @@ cpu.o: cpu.c.o
 
 # target to build an object file
 cpu.c.o:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu.c.o
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu.c.o
 .PHONY : cpu.c.o
 
 cpu.i: cpu.c.i
@@ -247,7 +247,7 @@ cpu.i: cpu.c.i
 
 # target to preprocess a source file
 cpu.c.i:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu.c.i
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu.c.i
 .PHONY : cpu.c.i
 
 cpu.s: cpu.c.s
@@ -255,7 +255,7 @@ cpu.s: cpu.c.s
 
 # target to generate assembly for a file
 cpu.c.s:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu.c.s
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu.c.s
 .PHONY : cpu.c.s
 
 emu.o: emu.c.o
@@ -263,7 +263,7 @@ emu.o: emu.c.o
 
 # target to build an object file
 emu.c.o:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/emu.c.o
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/emu.c.o
 .PHONY : emu.c.o
 
 emu.i: emu.c.i
@@ -271,7 +271,7 @@ emu.i: emu.c.i
 
 # target to preprocess a source file
 emu.c.i:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/emu.c.i
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/emu.c.i
 .PHONY : emu.c.i
 
 emu.s: emu.c.s
@@ -279,7 +279,7 @@ emu.s: emu.c.s
 
 # target to generate assembly for a file
 emu.c.s:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/emu.c.s
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/emu.c.s
 .PHONY : emu.c.s
 
 ppu.o: ppu.c.o
@@ -287,7 +287,7 @@ ppu.o: ppu.c.o
 
 # target to build an object file
 ppu.c.o:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ppu.c.o
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ppu.c.o
 .PHONY : ppu.c.o
 
 ppu.i: ppu.c.i
@@ -295,7 +295,7 @@ ppu.i: ppu.c.i
 
 # target to preprocess a source file
 ppu.c.i:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ppu.c.i
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ppu.c.i
 .PHONY : ppu.c.i
 
 ppu.s: ppu.c.s
@@ -303,7 +303,7 @@ ppu.s: ppu.c.s
 
 # target to generate assembly for a file
 ppu.c.s:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ppu.c.s
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/ppu.c.s
 .PHONY : ppu.c.s
 
 timer.o: timer.c.o
@@ -311,7 +311,7 @@ timer.o: timer.c.o
 
 # target to build an object file
 timer.c.o:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/timer.c.o
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/timer.c.o
 .PHONY : timer.c.o
 
 timer.i: timer.c.i
@@ -319,7 +319,7 @@ timer.i: timer.c.i
 
 # target to preprocess a source file
 timer.c.i:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/timer.c.i
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/timer.c.i
 .PHONY : timer.c.i
 
 timer.s: timer.c.s
@@ -327,7 +327,7 @@ timer.s: timer.c.s
 
 # target to generate assembly for a file
 timer.c.s:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/timer.c.s
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/timer.c.s
 .PHONY : timer.c.s
 
 # Help Target
@@ -373,7 +373,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ullas/Desktop/gameboy/part1/build && $(CMAKE_COMMAND) -P /home/ullas/Desktop/gameboy/part1/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/ullas/Desktop/gameboy/part1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(CMAKE_COMMAND) -P /home/ullas/Desktop/vscode/gameboy/part1/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/ullas/Desktop/vscode/gameboy/part1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
